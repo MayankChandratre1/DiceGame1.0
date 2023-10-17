@@ -1,4 +1,7 @@
-let ran1 = Math.floor(Math.random() * 6) + 1;
+
+
+function roll(){
+  let ran1 = Math.floor(Math.random() * 6) + 1;
 let ran2 = Math.floor(Math.random() * 6) + 1;
 let imgs = document.querySelectorAll("img");
 
@@ -11,4 +14,5 @@ if (ran1 > ran2) {
   document.querySelector("h1").textContent = "Player 2 Win!!";
 } else {
   document.querySelector("h1").textContent = "Draw";
+}
 }

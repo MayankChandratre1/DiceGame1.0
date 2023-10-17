@@ -9,7 +9,9 @@
   text-align: center;
 }
 body {
-  background-color: #443636;
+  background-color: #060f3e;
+  color: aliceblue;
+  text-shadow: 1px 1px 5px black;
   font-family: "Skranji", cursive;
 }
 
